@@ -14,7 +14,7 @@ const Banner = () => {
               you need. Its your future. Come find it. Manage all your job
               application from start to finish.
             </p>
-            <button className="primary__btn btn">Get Started</button>
+            <button className="primary__btn btn mt-3">Get Started</button>
           </div>
           <div className="w-1/2">
             <img src={authorImg} alt="" />

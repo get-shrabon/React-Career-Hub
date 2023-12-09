@@ -10,10 +10,9 @@ h4,
 h5,
 h6,
 span,
-button,
-a,
-nav {
+button {
   font-family: "Manrope", sans-serif;
+  color: #1a1919;
 }
 
 .active {
@@ -47,4 +46,19 @@ nav {
   font-family: Manrope;
   font-style: normal;
   font-weight: 800;
+}
+.category {
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+  margin: 10px;
+}
+.category img{
+  border-radius: 8px;
+background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+padding: 10px;
+margin-bottom: 20px;
 }
