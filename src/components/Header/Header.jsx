@@ -21,7 +21,7 @@ const Header = () => {
     </>
   );
   return (
-    <header className="bg-white">
+    <header className="header">
       <div className="navbar container mx-auto">
         <div className="navbar-start ">
           <div className="dropdown">
