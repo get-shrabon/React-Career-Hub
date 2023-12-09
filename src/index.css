@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  background: var(--Linear, linear-gradient(90deg, #7e90fe 0%, #9873ff 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.primary__btn {
+  border-radius: 8px;
+  background: var(--Linear, linear-gradient(90deg, #7e90fe 0%, #9873ff 100%));
+  display: inline-flex;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+}
