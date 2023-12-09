@@ -1,6 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+button,
+a,
+nav {
+  font-family: "Manrope", sans-serif;
+}
 
 .active {
   background: var(--Linear, linear-gradient(90deg, #7e90fe 0%, #9873ff 100%));
@@ -17,6 +31,20 @@
   font-weight: 600;
   border: none;
 }
-.banner, .header{
-  background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+.banner,
+.header {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+}
+.styles__text {
+  background: var(--Linear, linear-gradient(90deg, #7e90fe 0%, #9873ff 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
 }
