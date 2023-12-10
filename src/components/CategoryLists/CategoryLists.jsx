@@ -15,22 +15,22 @@ const CategoryLists = () => {
         </p>
       </div>
       <div className="lg:flex md:flex flex-none container mx-auto mt-5">
-        <div className="w-1/4 p-7 category">
+        <div className="lg:w-1/4 md:w-1/4 sm:w-1/1 p-7 category">
           <img src={Account} alt="" />
           <h3 className="font-bold text-2xl mb-3">Account & Finance</h3>
           <p>300 Jobs Available</p>
         </div>
-        <div className="w-1/4 p-7 category">
+        <div className="lg:w-1/4 md:w-1/4 sm:w-1/1 p-7 category">
           <img src={Creative} alt="" />
           <h3 className="font-bold text-2xl mb-3">Creative Design</h3>
           <p>100+ Jobs Available</p>
         </div>
-        <div className="w-1/4 p-7 category">
+        <div className="lg:w-1/4 md:w-1/4 sm:w-1/1 p-7 category">
           <img src={Marketing} alt="" />
           <h3 className="font-bold text-2xl mb-3">Marketing & Sales</h3>
           <p>150 Jobs Available</p>
         </div>
-        <div className="w-1/4 p-7 category">
+        <div className="lg:w-1/4 md:w-1/4 sm:w-1/1 p-7 category">
           <img src={Chip} alt="" />
           <h3 className="font-bold text-2xl mb-3">Engineering Job</h3>
           <p>224 Jobs Available</p>
