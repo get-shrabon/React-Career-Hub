@@ -56,9 +56,32 @@ button {
   );
   margin: 10px;
 }
-.category img{
+.category img {
   border-radius: 8px;
-background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
-padding: 10px;
-margin-bottom: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.jobBox {
+  border-radius: 8px;
+  border: 1px solid var(--Dark-06, #e8e8e8);
+  padding: 20px;
+}
+.jobBox img {
+  width: 120px;
+  height: 80px;
+}
+.jobBox button {
+  border-radius: 4px;
+  padding: 9px 19px;
+  border: 1px solid var(--Linear, #7e90fe);
+  font-weight: 600;
+}
+.sm__img{
+  width: 30px !important;
+  height: 30px !important;
 }

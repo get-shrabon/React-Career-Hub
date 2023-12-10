@@ -16,8 +16,8 @@ const Banner = () => {
             </p>
             <button className="primary__btn btn mt-3">Get Started</button>
           </div>
-          <div className="w-1/2">
-            <img src={authorImg} alt="" />
+          <div className="w-1/2 ">
+            <img className="w-[500px] mx-auto" src={authorImg} alt="" />
           </div>
         </div>
       </div>
