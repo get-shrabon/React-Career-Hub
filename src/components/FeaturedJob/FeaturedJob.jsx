@@ -1,8 +1,10 @@
 import PropTypes from "prop-types";
 import LocationImg from "./images/location2.png";
 import MoneyImg from "./images/money.png";
+import { Link } from "react-router-dom";
 const FeaturedJob = ({ job }) => {
   const {
+    id,
     logo,
     job_title,
     company_name,
@@ -34,7 +36,9 @@ const FeaturedJob = ({ job }) => {
           <span className="text-[#757575]">{salary}</span>
         </p>
       </div>
-      <button className="primary__btn mt-3">View Details</button>
+      <Link to={`/job/${id}`}>
+        <button className="primary__btn mt-3">View Details</button>
+      </Link>
     </div>
   );
 };

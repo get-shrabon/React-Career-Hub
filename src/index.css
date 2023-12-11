@@ -10,7 +10,8 @@ h4,
 h5,
 h6,
 span,
-button {
+button,
+strong {
   font-family: "Manrope", sans-serif;
   color: #1a1919;
 }
@@ -81,7 +82,34 @@ button {
   border: 1px solid var(--Linear, #7e90fe);
   font-weight: 600;
 }
-.sm__img{
+.sm__img {
   width: 30px !important;
   height: 30px !important;
+}
+.job_detail_bg {
+  padding: 100px 0;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+}
+.bg2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.bg1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.job__des {
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
 }
