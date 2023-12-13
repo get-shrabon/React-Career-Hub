@@ -16,6 +16,7 @@ strong {
   color: #1a1919;
 }
 
+
 .active {
   background: var(--Linear, linear-gradient(90deg, #7e90fe 0%, #9873ff 100%));
   background-clip: text;
@@ -73,8 +74,8 @@ strong {
   padding: 20px;
 }
 .jobBox img {
-  width: 120px;
-  height: 80px;
+  width: 150px;
+  height: 60px;
 }
 .jobBox button {
   border-radius: 4px;

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Range Explore</title>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; padding: 100px 0">
+      <input
+        style="
+          width: 300px;
+          cursor: cell;
+          background-color: blueviolet !important;
+        "
+        value="70"
+        min="1"
+        max="100"
+        id="range"
+        type="range"
+      />
+      <p style="color: tomato; font-size: 20px" id="demo"></p>
+    </div>
+    <script>
+      var slider = document.getElementById("range");
+      var output = document.getElementById("demo");
+      output.innerHTML = slider.value;
+
+      slider.oninput = function () {
+        output.innerHTML = this.value;
+      };
+    </script>
+  </body>
+</html>

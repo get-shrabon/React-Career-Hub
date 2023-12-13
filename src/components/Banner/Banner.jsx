@@ -4,7 +4,7 @@ const Banner = () => {
     return (
       <div className="banner">
         <div className="lg:flex md:flex sm:flex-none container mx-auto items-center">
-          <div className="w-1/2">
+          <div className="w-2/3">
             <h2 className="text-[60px] text-black font-bold leading-tight">
               One Step <br /> Closer To Your <br />{" "}
               <span className="styles__text">Dream Job</span>
@@ -16,7 +16,7 @@ const Banner = () => {
             </p>
             <button className="primary__btn btn mt-3">Get Started</button>
           </div>
-          <div className="w-1/2 ">
+          <div className="w-1/3 ">
             <img className="w-[500px] mx-auto" src={authorImg} alt="" />
           </div>
         </div>
