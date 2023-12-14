@@ -8,10 +8,9 @@ import Calander from "./images/calendar.png";
 import Phone from "./images/phone.png";
 import Email from "./images/email.png";
 import Location from "./images/location2.png";
+import { saveDataStored } from "../../Utility/LocalStorage";
 
-const handleApplyedBtn = () => {
-    toast('You Have Applied Successful')
-}
+
 const JobDetails = () => {
   const jobs = useLoaderData();
   const { id } = useParams();
@@ -26,6 +25,10 @@ const JobDetails = () => {
     experiences,
     contact_information,
   } = job;
+  const handleApplyedBtn = () => {
+    saveDataStored(idInt);
+    toast("You Have Applied Successful");
+  };
   return (
     <div>
       <div className=" job_detail_bg">
@@ -64,8 +67,8 @@ const JobDetails = () => {
             <h5 className="font-medium">Job Title :</h5>
             <p>{job_title}</p>
           </div>
-          <h4 className="font-bold text-xl py-3">Contact Information</h4>
-          <div className="divider"></div>
+          <h4 className="font-bold text-xl mt-3">Contact Information</h4>
+          <hr />
           <div className="flex items-center gap-2 my-1">
             <img src={Phone} alt="" />
             <h5 className="font-medium">Phone :</h5>
